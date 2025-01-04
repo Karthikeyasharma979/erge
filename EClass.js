@@ -3,7 +3,10 @@ class  Car{
         this.cname=cname;
         this.price=price;
     }
-    function display() {
-        
+    display(){
+        console.log("Display "+this.cname+this.price)
     }
 }
+
+const  cp = new Car()
+cp.display()

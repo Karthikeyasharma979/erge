@@ -8,7 +8,6 @@ else{
 }
 
 // Switch
-
 a = "hello"
 switch(a){
     case "hello": console.log("HELLO")
