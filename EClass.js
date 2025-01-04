@@ -4,9 +4,9 @@ class  Car{
         this.price=price;
     }
     display(){
-        console.log("Display "+this.cname+this.price)
+        console.log("Display "+this.cname+" "+this.price)
     }
 }
 
-const  cp = new Car()
+const  cp = new Car(1,1)
 cp.display()

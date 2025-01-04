@@ -6,7 +6,6 @@ if (a%2==0) {
 else{
     console.log("A is not divisable by 2 ")
 }
-
 // Switch
 a = "hello"
 switch(a){
